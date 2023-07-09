@@ -1,0 +1,38 @@
+:root {
+  --main-color:#0b5ed7 ; /*primay color */
+}
+body {
+  font-family: 'cairo';
+}
+h2 {
+  font-size: 3em;
+  padding: 30px 10px;
+  font-weight: bold;
+  color: #0b5ed7 ;
+}
+.card {
+  float: right;
+  margin: 30px 25px 20px 5px;
+  box-shadow: 1px 1px 4px silver;
+}
+.card img {
+  width: 100%;
+} 
+main {
+  width: 85%;
+  margin: 5px auto;
+}
+
+
+/* navbar */
+.mynav-link {
+  margin: 5px;
+  padding: 5px 5px 4px 24px;
+  transition: all 0.2s;
+  font-size: 1.3em;
+  /* width: 100%;
+  text-align: right; */
+}
+.mynav-link:hover {
+  color:rgb(156, 152, 152);
+}

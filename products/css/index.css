@@ -1,0 +1,98 @@
+body {
+  font-family: 'cairo';
+}
+.main {
+  width: 40%;
+  box-shadow: 1px 1px 10px silver;
+  
+}
+.main input {
+  margin-bottom: 10px;
+  padding: 10px ;
+  font-size: 17px;
+  font-weight: bold; 
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  color: #777;
+  transition: all 0.2s;
+}
+.main h2 {
+  padding-top: 20px ;
+  font-size: 30px;
+}
+
+.main input:hover {
+  border: 2px solid rgb(89, 189, 243);
+}
+.main button {
+  padding: 12px 15px;
+  font-weight: 900;
+  font-size: 17px;
+  border: 1px #1ac15c solid;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: all 0.3s;
+  margin-left: 6px;
+  background-color: #fff;
+  color: #1ac15c;
+}
+
+.main button:hover {
+  color: #FFf;
+  background-color: #1ac15c;
+}
+.main label {
+
+  padding: 10px 20px;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #1f87cf;
+  border: 1px #1f87cf solid;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.main label:hover {
+  color: #fff;
+  background-color: #1f87cf;
+  
+}
+
+.main a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: tomato;
+  border: 1px solid tomato;
+  padding: 5px;
+  margin-bottom: 38px ;
+  /* margin-bottom: 10px ; */
+  border-radius: 5px;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.main a:hover {
+  color: #fff;
+  background-color: tomato;
+}
+input::placeholder {
+  text-align: right;
+}
+
+@media (max-width:700px){
+  .main{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* margin-top: 0; */
+    height: 97vh;
+  }
+  .main img {
+    width: 70%;
+  }
+  .main h2 {
+    margin-top: 0;
+    padding-top: 19px;
+  }
+}
